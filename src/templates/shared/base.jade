@@ -1,0 +1,23 @@
+//-
+//- base.jade
+//-
+doctype html
+html(lang="ja" class="static")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width")
+
+    //- @see http://ionicframework.com/
+    link(href="css/ionic.min.css" rel="stylesheet")
+    script(src="js/ionic.bundle.min.js")
+
+    //- @see gulpfile.coffee
+    link(href="css/application.css" rel="stylesheet")
+    script(src="js/application.js")
+
+    // GULP_REMOVE_BEGIN
+    script(src="http://GULP_REPLACE_LOCAL_IP:35729/livereload.js")
+    // GULP_REMOVE_END
+
+  body(ng-app="static")
+    block body

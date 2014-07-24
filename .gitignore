@@ -1,0 +1,15 @@
+*.pidb
+*.userprefs
+*.swp
+*.DS_Store
+*.nib
+*.suo
+*.user
+*.pfx
+
+# Ignore npm/bower components
+node_modules
+bower_components
+
+# Ignore generated files in build dir.
+build/*

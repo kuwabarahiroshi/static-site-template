@@ -1,0 +1,21 @@
+{
+  "name": "static site template",
+  "version": "0.0.0",
+  "authors": [
+    "Hiroshi Kuwabara <kuwabara@beenos.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datejs": "*",
+    "normalize-css": "*",
+    "lodash": "*",
+    "ionic": "1.0.0-beta.9"
+  }
+}
